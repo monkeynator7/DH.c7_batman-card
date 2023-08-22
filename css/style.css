@@ -1,0 +1,125 @@
+* {
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+#header1{
+    background-color: #1CD1B0;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#precio-desc{
+    margin-top: 0%;
+    padding-left: 20px;
+    margin-bottom: 0%;
+}
+#heroes{
+    background-color: #00669F;
+    height: 70px;
+    margin-top: 0%;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight:normal
+}
+
+#contenedor-principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 10px 100px 10px;
+}
+
+.contenedor-personaje{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 350px;
+    background-color: #F3F3F3;
+    margin-top: 100px;
+    box-shadow: 0px 15px 10px -15px #111;
+    
+}
+.icon{
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    top: 150px;
+    left: 125px;
+}
+
+.corazon{
+    display: flex;
+    position: relative;
+    width: 35px;
+    left: 15px;
+    top: 5px;
+    z-index: 20;
+    
+}
+
+.texto{
+    padding-top: 5px;
+    padding-bottom: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.texto h4{
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.fondo{
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: -50px;
+    z-index: 0;
+}
+.fondo-harley{
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: -50px;
+    z-index: 0;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height: 225px;
+}
+
+#footer{
+    background-color: #00669F;
+    margin-bottom: 0px;
+    margin-top: 150px;
+    padding: 15px;
+    color: white;
+    font-weight: lighter;
+}
+
+.boton{
+    display: flex;
+    position: absolute;
+    background-color: #00669F;
+    color: white;
+    width: 100px;
+    justify-content: center;
+    left: 120px;
+    margin-top: 50px;
+    padding: 5px;
+    border: none;
+    
+}
