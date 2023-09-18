@@ -2,44 +2,73 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     margin: 0%;
 }
-#header{
+
+#header {
     position: fixed;
     width: 100%;
     z-index: 50;
 }
 
-#header1{
+#header1 {
     background-color: #1CD1B0;
     height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
 }
-#precio-desc{
+
+#precio-desc {
     margin-top: 0%;
     padding-left: 20px;
     margin-bottom: 0%;
 }
-#heroes{
+
+#heroes {
+    display: flex;
     background-color: #00669F;
     height: 70px;
     margin-top: 0%;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-family: sans-serif;
-    font-weight:normal
+    padding: 10px 5px 10px 20px;
 }
 
-#contenedor-principal{
+#heroes h2 {
+    font-family: sans-serif;
+    font-weight:200;
+    color: white;
+}
+
+#imagen-tienda {
+    padding-right: 10px;
+}
+
+#header2{
+    background-color: #001D2D;
+}
+
+#lista{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    height: 30px;
+    padding-top: 10px;
+}
+
+#lista li{
+    padding-right: 20px;
+    list-style: none;
+    color: white;
+}
+
+#contenedor-principal {
     display: flex;
     justify-content: space-around;
-    padding: 100px 10px 100px 10px;
+    padding: 100px 0px 100px 60px;
 }
 
-.contenedor-personaje{
+.contenedor-personaje {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -47,9 +76,10 @@ body{
     background-color: #F3F3F3;
     margin-top: 100px;
     box-shadow: 0px 15px 10px -15px #111;
-    
+
 }
-.icon{
+
+.icon {
     display: flex;
     position: absolute;
     border-radius: 50%;
@@ -58,24 +88,24 @@ body{
     left: 125px;
 }
 
-.corazon{
+.corazon {
     display: flex;
     position: relative;
     width: 35px;
     left: 15px;
     top: 5px;
     z-index: 20;
-    
+
 }
 
-.texto{
+.texto {
     padding-top: 5px;
     padding-bottom: 100px;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-.texto h4{
+.texto h4 {
     font-weight: normal;
     font-size: 30px;
     text-align: center;
@@ -83,14 +113,15 @@ body{
     margin-top: 10px;
 }
 
-.fondo{
+.fondo {
     display: flex;
     position: relative;
     width: 100%;
     top: -50px;
     z-index: 0;
 }
-.fondo-harley{
+
+.fondo-harley {
     display: flex;
     position: relative;
     width: 100%;
@@ -101,7 +132,7 @@ body{
     height: 225px;
 }
 
-#footer{
+#footer {
     background-color: #00669F;
     margin-bottom: 0px;
     margin-top: 150px;
@@ -110,7 +141,7 @@ body{
     font-weight: lighter;
 }
 
-.boton{
+.boton {
     display: flex;
     position: absolute;
     background-color: #00669F;
@@ -121,5 +152,97 @@ body{
     margin-top: 50px;
     padding: 5px;
     border: none;
+
+}
+
+.boton-mas {
+    width: 80px;
+    margin-top: 350px;
+}
+#espacio{
+    height: 200px;
+}
+
+/* Form */
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color:#00669F;
+    border-radius: 5%;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50vw;
+    height: 650px;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    color: white;
+    position: relative;
+}
+.contenido-form{
+    display: flex;
     
 }
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5px;
+
+}
+.box{
+    border-radius: 5%;
+    height: 30px;
+    margin-right: 30px;
+    width: 200px;
+}
+.box-elegir{
+    border-radius: 5%;
+    height: 35px;
+    width: 200px;
+}
+label{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.box-archivo{
+    margin-top: 20px !important;
+}
+.box-check{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: solid white 1px;
+    padding-bottom: 10px;
+}
+.item-checkbox{
+    padding-bottom: 5px;
+}
+.item p{
+    font-weight: 100;
+}
+label{
+    font-weight: 100;
+}
+#radio-input{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#boton-add{
+    position: absolute;
+    bottom: 3px;
+    width: 30%;
+    height: 5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: none;
+    right: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #1CD1B0;
+}
+/* Form */
